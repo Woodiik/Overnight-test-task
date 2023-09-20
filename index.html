@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&family=Montserrat:wght@500;600&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <title>WebStudio</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo"><a href="#"><img src="./img/logo.png" alt="logo"></a></div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="#">Офлайн програми
+              <svg class="polygon-icon" width="7" height="7">
+                <use href="./img/icons.svg#icon-polygon"></use>
+              </svg></a>
+
+          </li>
+          <li class="nav-list-item"><a href="#">Онлайн програми
+              <svg class="polygon-icon" width="7" height="7">
+                <use href="./img/icons.svg#icon-polygon"></use>
+              </svg></a>
+          </li>
+          <li class="nav-list-item"><a href="#">Розклад</a></li>
+          <li class="nav-list-item"><a href="#">Тренери</a></li>
+          <li class="nav-list-item"><a href="#">Тести
+              <svg class="polygon-icon" width="7" height="7">
+                <use href="./img/icons.svg#icon-polygon"></use>
+              </svg></a></li>
+          <li class="nav-list-item"><a href="#">Блог</a></li>
+        </ul>
+      </nav>
+      <div class="header-right-side">
+        <div class="phone-number-container"><a class="phone-number" href="tel:+380991231212">+38 (099) 123-12-12</a>
+        </div>
+        <div class="auth"><button class="auth-button" type="button">Вхід | Реєстрація</button></div>
+        <button class="menu-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="burger-icon" width="25" height="25">
+            <use href="./img/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="banner">
+      <div class="advertisement-container">
+        <div class="advertisement online">ONLINE</div>
+        <div class="advertisement xit">ХІТ продаж</div>
+      </div>
+      <h1 class="title">Таргетована реклама</h1>
+      <ul class="advantages">
+        <li class="advantage">
+          <svg width="12" height="12">
+            <use href="./img/icons.svg#icon-check-mark"></use>
+          </svg>
+          <p class="advantage-text">Працевлаштування для випускників</p>
+        </li>
+        <li class="advantage">
+          <svg width="12" height="12">
+            <use href="./img/icons.svg#icon-check-mark"></use>
+          </svg>
+          <p class="advantage-text">Найновіші програми для 2023 року +</p>
+        </li>
+      </ul>
+
+      <div class="info-and-price-container">
+        <ul class="additional-info">
+          <li class="additional-info-item">
+            <p class="additional-info-title">Старт курсу:</p>
+            <p class="additional-info-text">21 жовтня 2023</p>
+          </li>
+          <li class="additional-info-item">
+            <p class="additional-info-title">Тривалість:</p>
+            <p class="additional-info-text">5 тижнів</p>
+          </li>
+          <li class="additional-info-item">
+            <p class="additional-info-title">Рівень знань:</p>
+            <p class="additional-info-text">Просунутий</p>
+          </li>
+        </ul>
+        <div>
+          <div class="price">
+            <div class="old-price-container">
+              <div class="old-price">20 000 <span>грн</span></div>
+            </div>
+            <div class="current-price-container">
+              <div class="current-price">
+                <span>Вартість:</span>
+                16 000
+                <div class="uan-table">грн</div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="section-footer">
+            <button type="button" class="join-to-us-button">ЗАПИСАТИСЬ НА КУРС</button>
+            <p class="underbutton-text">Залишилось <span>3 місця</span> на курсі</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients">
+      <h2 class="clients-title">Кому підійде навчання</h2>
+      <ul class="our-clients">
+        <li class="client">
+          <svg class="client-icon" width="80" height="80">
+            <use href="./img/icons.svg#icon-client-1"></use>
+          </svg>
+          <p class="client-name">Початківцям маркетологам</p>
+        </li>
+        <li class="client">
+          <svg class="client-icon" width="80" height="80">
+            <use href="./img/icons.svg#icon-client-2"></use>
+          </svg>
+          <p class="client-name">Початківцям інтернет-маркетологам</p>
+        </li>
+        <li class="client">
+          <svg class="client-icon" width="80" height="80">
+            <use href="./img/icons.svg#icon-client-3"></use>
+          </svg>
+          <p class="client-name">Досвідченим маркетологам</p>
+        </li>
+        <li class="client">
+          <svg class="client-icon" width="80" height="80">
+            <use href="./img/icons.svg#icon-client-4"></use>
+          </svg>
+          <p class="client-name">Підприємцям-початківцям</p>
+        </li>
+        <li class="client">
+          <svg class="client-icon" width="80" height="80">
+            <use href="./img/icons.svg#icon-client-5"></use>
+          </svg>
+          <p class="client-name">Власникам малого бізенсу</p>
+        </li>
+        <li class="client">
+          <svg class="client-icon" width="80" height="80">
+            <use href="./img/icons.svg#icon-client-6"></use>
+          </svg>
+          <p class="client-name">Керівникам відділів маркетингу</p>
+        </li>
+        <li class="client">
+          <svg class="client-icon" width="80" height="80">
+            <use href="./img/icons.svg#icon-client-7"></use>
+          </svg>
+          <p class="client-name">Керівникам проектів</p>
+        </li>
+        <li class="client">
+          <svg class="client-icon" width="80" height="80">
+            <use href="./img/icons.svg#icon-client-8"></use>
+          </svg>
+          <p class="client-name">Початківцям смм-менеджерам</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-icon js-close-menu">
+      <svg class="icon-close-40px" width="40" height="40">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <ul class="mobile-menu">
+      <li class="mobile-menu-page"><a class="menu-link" href="./index.html">Офлайн програми
+          <svg class="polygon-icon" width="10" height="10">
+            <use href="./img/icons.svg#icon-polygon"></use>
+          </svg></a></li>
+      <li class="mobile-menu-page"><a class="menu-link" href="./index.html">Онлайн програми
+          <svg class="polygon-icon" width="10" height="10">
+            <use href="./img/icons.svg#icon-polygon"></use>
+          </svg></a></li>
+      <li class="mobile-menu-page"><a class="menu-link" href="./index.html">Розклад</a></li>
+      <li class="mobile-menu-page"><a class="menu-link" href="./index.html">Тренери</a></li>
+      <li class="mobile-menu-page"><a class="menu-link" href="./index.html">Тести
+          <svg class="polygon-icon" width="10" height="10">
+            <use href="./img/icons.svg#icon-polygon"></use>
+          </svg></a></li>
+      <li class="mobile-menu-page"><a class="menu-link" href="./index.html">Блог</a></li>
+
+
+    </ul>
+    <div class="mobile-menu-contacts">
+      <a class="mobile-menu-tel" href="tel:+380991231212">+38 099 123 12 12</a>
+      <a class="mobile-menu-mail" href="mailto:vovikvova04@gmail.com">vovikvova04@gmail.com</a>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
+
+</body>
+
+</html>
